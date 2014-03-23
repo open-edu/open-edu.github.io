@@ -1,10 +1,14 @@
 
 <div id="sidebar" class="sidebar">
-  <h4>Start Blogging</h4>
+  <h4>Guide</h4>
   <ul>
-    {% assign pages_list = site.categories.lessons %}
+    {% assign pages_list = site.categories.guide %}
     {% include JB/pages_list %}
   </ul>
-  
+  <h4>Contribute</h4>
+  <ul>
+    {% assign pages_list = site.categories.contribute %}
+    {% include JB/pages_list %}
+  </ul>
 </div>
 
