@@ -1,46 +1,19 @@
 ---
 layout: page
-title: Hello World!
+title: 介绍
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+这篇文章介绍了Open-edu是什么，我们为什么做这件事，以及我们是怎么做的
 
-## Update Author Attributes
+## 总览
+Open-edu是一个纪录开放式教育方式的网站，我们希望通过开源的方式对IT教育进行一些促进，做一些真正有利于IT教育的事情。
+我们认为，教育是一件需要广泛参与的事情，仅靠一家公司，一个组织是无法把这个事情做好的。
+因为教育面临的环境太过复杂。所以我们打算效法开源软件的做法，我们按照开源的游戏规则来进行这件事情。以期有所不同。
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+open-edu的教学内容受到Agile， Lean Startup的影响。教学方式受到SOLE的影响。
+以及在探索过程中受到ThoughtWorks， Moode等公司的支持。在此至为感谢。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+目前几米软件公司，是唯一一家完全采用该教学方法，并提供直接反馈并改进内容的公司，我们希望更多的公司加入其中。
