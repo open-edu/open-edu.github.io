@@ -17,4 +17,9 @@ tags : [intro, beginner, tutorial]
 因为他不像行为，动作那么容易观察和区别。所以我们需要一些辅助工具。
 语言是心智的窗户，所以写作就是我们的重要辅助工具之一。
 
+## 可以采用的工具
+
+1. 基于github pages的jeykell
+2. ItEye或oschina，比较好的社区
+3. gist
 
