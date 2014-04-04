@@ -1,7 +1,13 @@
 /* Override some defaults */
 html, body {
   background-color: #FFF;
+  font-size: 14px;
 }
+
+p{
+    font-size: 14px;
+}
+
 .container > .content {
   padding: 20px 30px 20px 30px;
 }
