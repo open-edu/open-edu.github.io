@@ -17,3 +17,5 @@ open-edu的教学内容受到Agile， Lean Startup的影响。教学方式受到
 以及在探索过程中受到ThoughtWorks， Moode等公司的支持。在此至为感谢。
 
 目前几米软件公司，是唯一一家完全采用该教学方法，并提供直接反馈并改进内容的公司，我们希望更多的公司加入其中。
+
+Open Workshop在采用其中的Workshop的实践。ThoughtWorks是主要的Open Workshop赞助商。
