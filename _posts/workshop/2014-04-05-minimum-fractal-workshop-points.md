@@ -49,6 +49,7 @@ tags : [intro, beginner, tutorial]
 #### 下午
 
 安装Ruby，Rails，用Rails创建一个基本的Rails app。然后把它传到Github上去。
+预先需求： git, github账号, sublime/eclipse/notepad++/rubymine/emacs/vim
 
 练习的内容：
 
@@ -64,42 +65,88 @@ tags : [intro, beginner, tutorial]
 - diff
 - status
 - log
+- merge
 
 讲到的内容：
 
-- merge
 - revert
+- fork
 - pull request
 - branch
 - tag
 - checkout
 
-### 第二天
+详细流程
 
-#### 上午
+1. 先建立一个github账号
+1. 创建一个自己的库
+1. 本地init
+1. touch 一个README
+1. git status
+1. add
+1. git status
+1. commit
+1. git status
+1. push（查一下-u是什么）
+1. 看看github上变成了什么。
+1. 查看.gitignore
+1. 再体验一遍，创建一个文件readme吧，添点内容，看看status
+1. add，看看status
+1. 再commit，看看status，跟刚才有什么区别。理解local commit
+1. push，这回没有了-u了
+1. 去服务器改改readme
+1. 然后本地也改改，push下，肯定失败。pull下来，严格要求怎么改，不能出现冲突。
+1. 然后要求改同一行。pull，看看conflict，处理conflict。
+1. 将readme改为readme.md
+
+### 第二天～第三天
+
 
 仿照Rails Guide完成一个简单Blog的搭建
 
-#### 下午
+具体流程：
 
-继续搭建
+- 先用genrator创建一个post
+- 再用bootstrap重写页面
+- 加入一个简单测试
+- 加入用户登录，登录的用户才能看到添加按钮，才能进入添加页面，才能看到修改按钮，才能进入修改页面。
+- 我省掉了任务划分部分。为了提高效率。
 
-### 第三天
-
-#### 上午
-
-用Cucumber写测试，跑测试
-
-### 下午
-
-搭建一个持续集成环境，必要的话把测试环境，产品环境都部署好。
 
 ### 第四天
 
 #### 上午
 
-部署到自己的环境，用host指向，架上passenger，ngnix
+用Cucumber写测试，跑测试
+
+- 创建一个测试，可以访问列表页面要求列表页面，只需要打开，看到某些要素即可。
+- 创建一个测试，可以访问访问列表页面，从列表页面进入创建页面，从创建页面创建某标题的博客，然后确认回到列表页面，并找到刚才创建的标题的那一项。
+
+### 下午
+
+
+搭建一个持续集成环境，必要的话把测试环境，产品环境都部署好。
+
+- 安装GO
+- 创建一个测试环境。要有passenger，手动部署一次。
+- 提交一个简单的对README的修改。
+- 看看GO如何从下代码，跑测试，跑脚本：部署rails到passenger，drop数据库，运行migration，执行seed，跑cucumber测试
+
+
+### 第五天
+
+#### 上午
+
+继续部署持续集成环境
 
 #### 下午
 
-继续
+开始搭建持续交付环境
+
+### 第六天
+
+装一个splunk
+回顾
+
+
+
