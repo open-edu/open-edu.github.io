@@ -2,7 +2,7 @@
 layout: post
 category : path
 tagline: "Supporting tagline"
-title: 想法与验证
+title: 经典路线Web
 tags : [intro, beginner, tutorial]
 ---
 {% include JB/setup %}
