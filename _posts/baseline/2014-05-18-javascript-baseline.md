@@ -35,9 +35,10 @@ title : Javascript基线
 3. 事件处理, onclick, onchange, onsubmit. dispatchEvent。
 4. 写一篇博客讲解事件
 5. 不使用reactive框架情况下，自己完成rxjs的几个demo（检测输入，鼠标移动跟随字体，konami调30命键盘监控等）
+6. 写一篇博客讲解reactive,promise
 
 ## 了解并掌握常见的 JavaScript 的库，比如 jQuery、underscore 等
 
 1. 做几个jquery适合的场景
-2. fizzbuzz中使用underscore，一些基于underscore的ut
-
+2. fizzbuzz中使用underscore，完成一些基于underscore的ut
+3. 写一篇博客对这些框架的介绍和理解。要讲出他的特点，优点，缺点。
