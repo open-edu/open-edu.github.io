@@ -23,7 +23,7 @@ title : Web前端基线
 * 了解 Responsive Design
 * 了解 REST，并会编写出基于 REST 的 API 接口
 
-基线描述如下：
+验收条件如下：
 
 ## 可以写出结构化良好、语义良好的 HTML
 
@@ -59,4 +59,7 @@ title : Web前端基线
 
 1. 写一篇博客讲解REST
 2. 基于sinatra来模拟一个REST API，要考虑安全。
+
+
+
 
