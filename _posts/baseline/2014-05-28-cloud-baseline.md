@@ -3,7 +3,7 @@ layout: post
 category : baseline
 tagline: "Supporting tagline"
 tags : [intro, beginner, tutorial]
-title : 持续交付基线
+title : 云的基线
 ---
 {% include JB/setup %}
 
