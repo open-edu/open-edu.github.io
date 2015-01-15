@@ -7,6 +7,10 @@ tags : [intro, beginner, tutorial]
 ---
 {% include JB/setup %}
 
+## 前置课程
+
+POS机V0~V2做完
+
 ## 总览
 
 UT Workshop教学重点
